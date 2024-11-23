@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <div class="add-clock">
+        <select id="timezone-select">
+          <option value="UTC">UTC</option>
+          <option value="America/New_York">New York (EST)</option>
+          <option value="Europe/London">London (GMT)</option>
+          <option value="Asia/Kolkata">India (IST)</option>
+          <option value="Asia/Tokyo">Tokyo (JST)</option>
+          <option value="Australia/Sydney">Sydney (AEST)</option>
+        </select>
+        <button id="add-clock-btn">Add Clock</button>
+      </div>
+      <div id="clock-list"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  max-width: 300px;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.add-clock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#timezone-select {
+  flex: 1;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+#clock-list {
+  margin-top: 10px;
+}
+
+.clock-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}

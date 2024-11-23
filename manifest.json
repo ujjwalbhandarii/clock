@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "clock",
+  "version": "1.0",
+  "description": "Add and display clocks for different countries.",
+  "action": {
+    "default_popup": "./src/popup.html"
+  },
+  "permissions": ["storage"]
+}
